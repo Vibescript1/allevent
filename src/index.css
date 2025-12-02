@@ -1,0 +1,242 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Base Colors - Luxury Theme (Darker Version) */
+    --background: 35 30% 92%; /* Darkened from 97% to 92% */
+    --foreground: 285 40% 10%; /* Darkened from 12% to 10% */
+
+    --card: 35 30% 94%; /* Darkened from 97% to 94% */
+    --card-foreground: 285 40% 10%; /* Darkened from 12% to 10% */
+
+    --popover: 35 30% 96%; /* Darkened from 100% to 96% */
+    --popover-foreground: 285 40% 10%; /* Darkened from 12% to 10% */
+
+    /* Primary - Deep Plum */
+    --primary: 285 40% 15%; /* Darkened from 18% to 15% */
+    --primary-foreground: 35 40% 95%; /* Lightened for contrast */
+
+    /* Secondary - Warm Gold (Adjusted for better contrast with darker theme) */
+    --secondary: 45 90% 45%; /* Increased saturation, decreased lightness */
+    --secondary-foreground: 285 40% 10%; /* Darkened from 12% to 10% */
+
+    /* Accent - Cream (Slightly darker than ivory) */
+    --accent: 35 30% 94%; /* Darkened from 97% to 94% */
+    --accent-foreground: 285 40% 10%; /* Darkened from 12% to 10% */
+
+    --muted: 35 20% 85%; /* Darkened from 90% to 85% */
+    --muted-foreground: 285 20% 35%; /* Darkened from 40% to 35% */
+
+    --destructive: 0 84% 55%; /* Darkened from 60% to 55% */
+    --destructive-foreground: 35 40% 95%; /* Lightened for contrast */
+
+    --border: 285 20% 80%; /* Darkened from 85% to 80% */
+    --input: 285 20% 80%; /* Darkened from 85% to 80% */
+    --ring: 45 90% 45%; /* Match secondary color */
+
+    --radius: 0.75rem;
+
+    /* Event-Specific Colors */
+    /* Wedding - Maroon & Gold */
+    --wedding-primary: 0 100% 22%;
+    --wedding-secondary: 45 100% 47%;
+    --wedding-accent: 0 100% 12%;
+
+    /* Corporate - Navy & Silver */
+    --corporate-primary: 220 65% 32%;
+    --corporate-secondary: 0 0% 66%;
+    --corporate-accent: 220 65% 22%;
+
+    /* Entertainment - Royal Purple */
+    --entertainment-primary: 280 60% 42%;
+    --entertainment-secondary: 280 40% 57%;
+    --entertainment-accent: 280 70% 27%;
+
+    /* Sports - Tricolor */
+    --sports-saffron: 20 100% 52%;
+    --sports-white: 0 0% 97%;
+    --sports-green: 150 95% 22%;
+
+    /* Gradients */
+    --gradient-luxury: linear-gradient(
+      135deg,
+      hsl(var(--primary)) 0%,
+      hsl(285 40% 22%) 100%
+    );
+    --gradient-gold: linear-gradient(
+      135deg,
+      hsl(var(--secondary)) 0%,
+      hsl(45 90% 52%) 100%
+    );
+    --gradient-wedding: linear-gradient(
+      135deg,
+      hsl(var(--wedding-primary)) 0%,
+      hsl(var(--wedding-secondary)) 100%
+    );
+    --gradient-corporate: linear-gradient(
+      135deg,
+      hsl(var(--corporate-primary)) 0%,
+      hsl(var(--corporate-secondary)) 100%
+    );
+    --gradient-entertainment: linear-gradient(
+      135deg,
+      hsl(var(--entertainment-primary)) 0%,
+      hsl(var(--entertainment-secondary)) 100%
+    );
+
+    /* Shadows */
+    --shadow-luxury: 0 20px 60px -15px hsl(var(--primary) / 0.4);
+    --shadow-gold: 0 10px 40px -10px hsl(var(--secondary) / 0.5);
+    --shadow-elegant: 0 4px 20px -2px hsl(var(--primary) / 0.2);
+
+    /* Transitions */
+    --transition-elegant: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-serif;
+    font-family: "Playfair Display", "Georgia", serif;
+    /* Subtle texture overlay for depth */
+    background-image: radial-gradient(hsl(var(--secondary) / 0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display", "Georgia", serif;
+    font-weight: 600;
+  }
+
+  p,
+  span,
+  div {
+    font-family: "Inter", "system-ui", sans-serif;
+  }
+  
+  /* Custom Scrollbar Styling */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--secondary));
+    border-radius: 10px;
+    border: 2px solid hsl(var(--background));
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--secondary) / 0.8);
+  }
+
+  /* Firefox scrollbar */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--secondary)) hsl(var(--background));
+  }
+}
+
+@layer utilities {
+  .gradient-luxury {
+    background: var(--gradient-luxury);
+  }
+
+  .gradient-gold {
+    background: var(--gradient-gold);
+  }
+
+  .gradient-wedding {
+    background: var(--gradient-wedding);
+  }
+
+  .gradient-corporate {
+    background: var(--gradient-corporate);
+  }
+
+  .gradient-entertainment {
+    background: var(--gradient-entertainment);
+  }
+
+  .shadow-luxury {
+    box-shadow: var(--shadow-luxury);
+  }
+
+  .shadow-gold {
+    box-shadow: var(--shadow-gold);
+  }
+
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+
+  .transition-elegant {
+    transition: var(--transition-elegant);
+  }
+}
+
+.swiper-pagination {
+  bottom: 1px !important; 
+}
+
+.hero-swiper .swiper-pagination {
+  bottom: 60px !important; 
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 8px;
+  background: #D6A419; 
+  opacity: 0.5;
+  border-radius: 9999px;
+  transition: all 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 50px;
+  border-radius: 9999px;
+  background: #D6A419;
+  position: relative;
+  overflow: hidden;
+}
+
+/* progress fill inside active dot */
+.swiper-pagination-bullet-active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background-color: rgba(255, 255, 255, 0.3);
+  animation: fillDot 5s linear forwards; /* match your autoplay delay */
+}
+
+@keyframes fillDot {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
