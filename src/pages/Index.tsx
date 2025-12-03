@@ -73,33 +73,33 @@ const Index = () => {
 
   const testimonials = [
     {
-      quote: "When we saw the mandap, I wept. It wasn’t décor—it was my grandmother’s temple.",
-      author: "Couple, Chennai",
-      image: "https://res.cloudinary.com/dqtuapdkq/image/upload/v1760882758/Screenshot_2025-10-19_193328_agsqza.png",
+      quote: "Memorable Events transformed our wedding day into an enchanting fairytale. Every detail was meticulously planned and flawlessly executed. Our guests are still talking about it months later!",
+      author: "Priya & Rohan, Mumbai",
+      image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80",
       rating: 5,
     },
     {
-      quote: "Our Bali gala was not just professional—it was soulful. Guests felt our purpose.",
-      author: "CEO, Global Tech Firm",
-      image: "https://res.cloudinary.com/dqtuapdkq/image/upload/v1760882853/Screenshot_2025-10-19_193344_di3enf.png",
+      quote: "As a Fortune 500 company, we needed an event partner who understood corporate excellence. Memorable Events delivered beyond our expectations with their professionalism and creative flair.",
+      author: "Managing Director, TechCorp International",
+      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80",
       rating: 5,
     },
     {
-      quote: "The pop concert staging was flawless; the audience became one heartbeat.",
-      author: "Tour Manager",
-      image: "https://res.cloudinary.com/dqtuapdkq/image/upload/v1760882854/Screenshot_2025-10-19_193355_rxshyn.png",
+      quote: "The birthday party for our daughter was magical! The themed decorations and entertainment had both kids and adults thoroughly engaged. Truly a stress-free planning experience.",
+      author: "The Sharma Family, Delhi",
+      image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80",
       rating: 5,
     },
     {
-      quote: "In Dubai, they gave us both: the luxury we wanted and the soul we feared we’d lose.",
-      author: "Groom, Dubai",
-      image: "https://res.cloudinary.com/dqtuapdkq/image/upload/v1760882852/Screenshot_2025-10-19_193333_vpfcqt.png",
+      quote: "Working with Memorable Events for our product launch was a game-changer. Their innovative approach and attention to detail helped us make a lasting impression on our clients.",
+      author: "Marketing Head, StyleFusion",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80",
       rating: 5,
     },
     {
-      quote: "From registration to farewell , the experience felt intentional.",
-      author: "Investor, Delhi",
-      image: "https://res.cloudinary.com/dqtuapdkq/image/upload/v1760882854/Screenshot_2025-10-19_193348_ilzkud.png",
+      quote: "The anniversary celebration was beyond our wildest dreams. Memorable Events captured our love story perfectly in every element of the evening. Simply unforgettable!",
+      author: "Mr. & Mrs. Khanna, Bangalore",
+      image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80",
       rating: 5,
     },
   ];
