@@ -29,7 +29,7 @@ const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
           <Link to="/" className="flex items-center space-x-2">
             <img 
               src="/d9de9317-d065-4608-89f0-9900da1cefd6-removebg-preview.png" 
-              alt="Veevibe Logo" 
+              alt="Memorable Events Logo"
               className="h-20 w-auto p-2"
             />
           </Link>

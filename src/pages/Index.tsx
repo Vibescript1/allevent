@@ -107,13 +107,13 @@ const Index = () => {
   const founderSections = [
     {
       icon: <FaLightbulb />,
-      title: "The Veevibe Origin",
-      text: "I searched for something deeper: the fragrance of jasmine, the warmth of a mother’s blessing, the sound of temple bells at dawn. They were missing. And so, Veevibe was born.",
+      title: "The Memorable Events Origin",
+      text: "I searched for something deeper: the fragrance of jasmine, the warmth of a mother’s blessing, the sound of temple bells at dawn. They were missing. And so, Memorable Events was born.",
     },
     {
       icon: <FaHeart />,
       title: "The Promise",
-      text: "I wanted to create a world where luxury and tradition could hold hands. Veevibe is my promise: that your celebration will not just shine, but breathe.",
+      text: "I wanted to create a world where luxury and tradition could hold hands. Memorable Events is my promise: that your celebration will not just shine, but breathe.",
     },
     {
       icon: <FaGem />,

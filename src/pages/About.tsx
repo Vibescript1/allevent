@@ -93,15 +93,15 @@ const About = () => {
 
   const aboutSections = [
     {
-      title: "The Genesis of Veevibe",
+      title: "The Genesis of Memorable Events",
       icon: <GiPartyFlags size={40} className="text-[#D6A419]" />,
-      content: `I’ve walked through the golden ballrooms of Mumbai, attended star-studded concerts in Dubai, and witnessed the sparkle of chandeliers across India’s finest venues. They dazzled me, yes, but I searched for something deeper. And so, Veevibe was born to create a world where luxury and tradition hold hands. Where a bride could walk down an aisle adorned in a handcrafted Sabyasachi lehenga, yet still feel the grounding grace of turmeric and rose petals. Where a corporate gala could be as elegant as Paris, yet carry the soulful warmth of Hyderabad.`,
+      content: `I’ve walked through the golden ballrooms of Mumbai, attended star-studded concerts in Dubai, and witnessed the sparkle of chandeliers across India’s finest venues. They dazzled me, yes, but I searched for something deeper. And so, Memorable Events was born to create a world where luxury and tradition hold hands. Where a bride could walk down an aisle adorned in a handcrafted Sabyasachi lehenga, yet still feel the grounding grace of turmeric and rose petals. Where a corporate gala could be as elegant as Paris, yet carry the soulful warmth of Hyderabad.`,
       quote: "“We design not just for the eyes, but for the soul.”",
     },
     {
       title: "Guiding Principles",
       icon: <FaRegLightbulb size={40} className="text-[#D6A419]" />,
-      content: `LUXURY DOES NOT ERASE TRADITION IT ELEVATES IT. At Veevibe, we do not choose between heritage and refinement; we create harmony. Because the true art of event design is not in decoration; it is in emotion. We design not for the eyes alone, but for the soul. What unites them is reverence. For a couple, the sacredness of vows. For a brand, the sacredness of vision. The devotion we bring to families, we extend to stakeholders. The rigor we bring to rituals, we bring to showflows.`,
+      content: `LUXURY DOES NOT ERASE TRADITION IT ELEVATES IT. At Memorable Events, we do not choose between heritage and refinement; we create harmony. Because the true art of event design is not in decoration; it is in emotion. We design not for the eyes alone, but for the soul. What unites them is reverence. For a couple, the sacredness of vows. For a brand, the sacredness of vision. The devotion we bring to families, we extend to stakeholders. The rigor we bring to rituals, we bring to showflows.`,
       quote: "“Tradition and luxury walk hand in hand.”",
     },
     {
@@ -146,7 +146,7 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            About Veevibe Events
+            About Memorable Events
           </motion.h1>
           <motion.p
             className="text-xl text-muted-foreground font-sans max-w-3xl mx-auto text-white"
@@ -188,11 +188,11 @@ const About = () => {
           {[
             `I’ve walked through the golden ballrooms of Mumbai, attended star-studded concerts in Dubai, and witnessed the sparkle of chandeliers across India’s and other countries’ finest venues. They dazzled me, yes. But in that grandeur, I searched for something deeper: the fragrance of jasmine, the warmth of a mother’s blessing, the sound of temple bells at dawn. They were missing.`,
 
-            `And so, Veevibe was born.`,
+            `And so, Memorable Events was born.`,
 
             `I wanted to create a world where luxury and tradition could hold hands. Where a bride could walk down an aisle adorned in a handcrafted Sabyasachi lehenga, yet still feel the grounding grace of turmeric and rose petals. Where a corporate gala could be as elegant as Paris, yet carry the soulful warmth of Hyderabad.`,
 
-            `Veevibe is my promise: that your celebration will not just shine, but breathe. That it will not only impress, but also move hearts. Because the true art of event design is not in decoration; it is in emotion.`,
+            `Memorable Events is my promise: that your celebration will not just shine, but breathe. That it will not only impress, but also move hearts. Because the true art of event design is not in decoration; it is in emotion.`
           ].map((paragraph, index) => (
             <motion.p
               key={index}
@@ -228,7 +228,7 @@ const About = () => {
   <motion.div className="overflow-hidden rounded-2xl shadow-lg w-full max-w-[340px] lg:max-w-[380px] mx-auto">
     <motion.img
       src="https://res.cloudinary.com/ddqplrtt2/image/upload/v1762240777/author_wwxe1i.jpg"
-      alt="Founder of Veevibe"
+      alt="Founder of Memorable Events"
       className="w-full h-[440px] lg:h-[500px] object-contain object-top"
       whileHover={{ scale: 1.02 }}
       transition={{ duration: 0.3 }}
@@ -243,7 +243,7 @@ const About = () => {
       </span>
     </h3>
     <p className="text-muted-foreground text-sm mt-1 tracking-wide">
-      Founder, Veevibe
+      Founder, Memorable Events
     </p>
   </div>
 </motion.div>
@@ -262,7 +262,7 @@ const About = () => {
             <div className="relative group overflow-hidden rounded-2xl shadow-lg w-[90%] h-48 sm:w-80 sm:h-64 md:w-[420px] md:h-[270px] lg:w-[500px] lg:h-[320px]">
               <img
                 src="https://res.cloudinary.com/ddqplrtt2/image/upload/v1762341010/magazineCover_mzcvz0.png"
-                alt="VeeVibe Magazine"
+                alt="Memorable Events Magazine"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <a 
@@ -323,7 +323,7 @@ const About = () => {
             className="text-4xl md:text-5xl font-extrabold text-[#3C1E3D] mb-4 tracking-wide"
             variants={item}
           >
-            About Veevibe
+            About Memorable Events
           </motion.h2>
           <motion.p
             className="text-gray-700 text-lg md:text-xl font-light"

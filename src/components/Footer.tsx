@@ -68,7 +68,7 @@ const Footer = () => {
               <div className="mb-4">
                 <img 
                   src="/d9de9317-d065-4608-89f0-9900da1cefd6-removebg-preview.png" 
-                  alt="Veevibe Logo" 
+                  alt="Memorable Events Logo"
                   className="h-24 w-auto"
                 />
               </div>
@@ -187,7 +187,7 @@ const Footer = () => {
                 >
                   <FaEnvelope className="text-secondary flex-shrink-0 group-hover:scale-110 transition-transform" />
                   <span className="text-primary-foreground/80 group-hover:text-secondary transition-colors">
-                    info@veevibeevents.com
+                    info@memorableevents.com
                   </span>
                 </motion.div>
               </div>
@@ -203,7 +203,7 @@ const Footer = () => {
             className="border-t border-primary-foreground/20 pt-8 text-center"
           >
             <p className="text-primary-foreground/60 text-sm">
-              {new Date().getFullYear()} Veevibe Events. All rights reserved. | 
+              {new Date().getFullYear()} Memorable Events. All rights reserved. |
               
             </p>
             
