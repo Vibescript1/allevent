@@ -414,7 +414,7 @@ const About = () => {
         >
           <motion.div
             className="text-center mb-16"
-            variants={fadeInUp}
+              variants={fadeInUp}
           >
             <motion.h2
               className="text-4xl md:text-5xl font-bold text-foreground mb-4 tracking-wide"
