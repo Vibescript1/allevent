@@ -13,7 +13,7 @@ import EventDetails from "./pages/EventDetails";
 import Wedding from "./pages/events/Wedding";
 import Corporate from "./pages/events/Corporate";
 import Entertainment from "./pages/events/Entertainment";
-import Sports from "./pages/events/Sports";
+import Birthday from "./pages/events/Birthday";
 import NotFound from "./pages/NotFound";
 
 
@@ -35,7 +35,7 @@ const App = () => (
             <Route path="/events/wedding" element={<Wedding />} />
             <Route path="/events/corporate" element={<Corporate />} />
             <Route path="/events/entertainment" element={<Entertainment />} />
-            <Route path="/events/sports" element={<Sports />} />
+            <Route path="/events/birthday" element={<Birthday />} />
             <Route path="/event/theme/:id" element={<EventDetails />} />
             <Route path="/event/:id" element={<EventDetails />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

@@ -4,7 +4,7 @@ import {
   TrendingUp, Calendar, Users, MapPin, CheckCircle, Shield, 
   ArrowRight, Heart, Star, Sparkles, Trophy, Music, Zap, 
   Crown, Award, Flame, Search, Filter, ArrowUpRight,
-  Eye, Clock, ThumbsUp, Share2, Bookmark
+  Eye, Clock, ThumbsUp, Share2, Bookmark, Cake
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardFooter } from "@/components/ui/card";
@@ -108,20 +108,20 @@ const Trending = () => {
     },
     {
       id: 6,
-      title: "E-Sports Tournaments",
-      category: "Sports",
-      description: "Professional gaming tournaments with live streaming and interactive fan experiences.",
-      image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
-      popularity: 91,
-      bookings: 210,
+      title: "Luxury Birthday Bash",
+      category: "Birthday",
+      description: "Premium birthday celebrations with personalized themes and exclusive entertainment.",
+      image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      popularity: 94,
+      bookings: 180,
       trending: "hot",
-      views: 1800,
-      duration: "Full Day",
-      location: "Arenas & Online",
-      price: "$$",
-      icon: Zap,
-      color: "from-red-500 to-orange-500",
-      tags: ["Gaming", "Tech", "Competitive"],
+      views: 1600,
+      duration: "4-6 Hours",
+      location: "Premium Venues",
+      price: "$$$",
+      icon: Cake,
+      color: "from-pink-500 to-purple-500",
+      tags: ["Luxury", "Personalized", "Celebration"],
     },
   ];
 

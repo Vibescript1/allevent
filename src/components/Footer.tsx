@@ -49,7 +49,7 @@ const Footer = () => {
     { name: 'Wedding Events', path: '/events/wedding' },
     { name: 'Corporate Events', path: '/events/corporate' },
     { name: 'Entertainment Shows', path: '/events/entertainment' },
-    { name: 'Sports Events', path: '/events/sports' },
+    { name: 'Birthday Events', path: '/events/birthday' }
   ];
 
   return (

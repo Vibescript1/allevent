@@ -134,18 +134,18 @@ const eventsData: Event[] = [
   {
     type: 'event',
     id: 6,
-    title: "E-Sports Events",
-    category: "Sports",
-    description: "Professional gaming tournaments with live streaming.",
-    longDescription: "Host the ultimate gaming experience with our E-Sports Events. We provide professional tournament setups, live streaming capabilities, and engaging audience experiences. Perfect for brand activations, gaming conventions, and competitive gaming tournaments.",
-    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
-    popularity: "91%",
-    bookings: "210+",
+    title: "Luxury Birthday Celebrations",
+    category: "Birthday",
+    description: "Premium birthday events with personalized themes and exclusive entertainment.",
+    longDescription: "Make your special day truly unforgettable with our Luxury Birthday Celebrations. We specialize in creating personalized experiences with custom themes, premium entertainment, and gourmet catering. From milestone birthdays to surprise parties, our team ensures every detail is perfect for an extraordinary celebration.",
+    image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    popularity: "94%",
+    bookings: "180+",
     trending: "hot",
-    color: "from-red-500 to-orange-500",
+    color: "from-pink-500 to-purple-500",
     date: "Year-round availability",
-    location: "Venues worldwide & online",
-    price: "Starting from $8,000"
+    location: "Premium venues worldwide",
+    price: "Starting from $5,000"
   },
   {
     type: 'event',

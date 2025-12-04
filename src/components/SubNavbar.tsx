@@ -8,7 +8,7 @@ const SubNavbar = () => {
     { path: "/events/wedding", label: "Weddings" },
     { path: "/events/corporate", label: "Corporate" },
     { path: "/events/entertainment", label: "Entertainment" },
-    { path: "/events/sports", label: "Sports" },
+    { path: "/events/birthday", label: "Birthdays" }
   ];
 
   const isActive = (path: string) => location.pathname === path;

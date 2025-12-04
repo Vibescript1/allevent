@@ -373,12 +373,6 @@ const Booking = () => {
                                   <span>Entertainment</span>
                                 </div>
                               </SelectItem>
-                              <SelectItem value="sports">
-                                <div className="flex items-center gap-2">
-                                  <Trophy className="w-4 h-4" />
-                                  <span>Sports Event</span>
-                                </div>
-                              </SelectItem>
                               <SelectItem value="birthday">
                                 <div className="flex items-center gap-2">
                                   <Cake className="w-4 h-4" />

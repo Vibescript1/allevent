@@ -15,7 +15,7 @@ import heroImage from "@/assets/hero-main.jpg";
 import corporateImage from "@/assets/corporate-hero.jpg";
 import { FaLightbulb, FaHeart, FaGem, FaPalette, FaMusic } from "react-icons/fa";
 import entertainmentImage from "@/assets/entertainment-hero.jpg";
-import sports from "@/assets/sports-hero.jpg";
+// import sports from "@/assets/sports-hero.jpg";
 import { motion } from "framer-motion";
 const Index = () => {
   const heroSlides = [
@@ -38,10 +38,10 @@ const Index = () => {
       category: "Entertainment",
     },
     {
-      image: sports,
-      title: "Sports Events",
+      image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+      title: "Birthday Parties",
       subtitle: "Creating experiences that captivate",
-      category: "Sports",
+      category: "Birthday",
     },
   ];
   const services = [
@@ -64,10 +64,10 @@ const Index = () => {
       link: "/events/entertainment",
     },
     {
-      title: "Sports Events",
-      description: "World-class sports event management and execution.",
-      image: "https://res.cloudinary.com/ddqplrtt2/image/upload/v1762276260/sports_dz1tqa.jpg",
-      link: "/events/sports",
+      title: "Birthday Events",
+      description: "Unforgettable birthday celebrations for all ages.",
+      image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      link: "/events/birthday",
     },
   ];
 
@@ -108,27 +108,27 @@ const Index = () => {
     {
       icon: <FaLightbulb />,
       title: "The Memorable Events Origin",
-      text: "I searched for something deeper: the fragrance of jasmine, the warmth of a mother’s blessing, the sound of temple bells at dawn. They were missing. And so, Memorable Events was born.",
+      text: "Every celebration tells a story - a birthday, a wedding, a corporate milestone. We noticed that what makes events truly memorable isn't just the spectacle, but the emotions they evoke. And so, Memorable Events was born.",
     },
     {
       icon: <FaHeart />,
-      title: "The Promise",
-      text: "I wanted to create a world where luxury and tradition could hold hands. Memorable Events is my promise: that your celebration will not just shine, but breathe.",
+      title: "Our Promise",
+      text: "We create a world where luxury and personal meaning intertwine. Memorable Events promises that your celebration - whether a birthday, wedding, or corporate event - will not just shine, but breathe with life.",
     },
     {
       icon: <FaGem />,
-      title: "The Guiding Principle",
-      text: '"LUXURY DOES NOT ERASE TRADITION — IT ELEVATES IT."',
+      title: "Our Guiding Principle",
+      text: '"LUXURY IS PERSONALIZED — IT REFLECTS YOUR UNIQUE STORY."',
     },
     {
       icon: <FaPalette />,
       title: "The Art of Design",
-      text: "Because the true art of event design is not in decoration; it is in emotion. An event is not a date on a calendar—it is a heartbeat.",
+      text: "True event design transcends decoration; it captures emotion. An event is not just a date on a calendar - it's a moment in time we help you make unforgettable.",
     },
     {
       icon: <FaMusic />,
-      title: "Sensory Detail",
-      text: "Every detail is a verse in the poetry of celebration: the scent of jasmine, the rhythm of a flute, the silk of drapes echoing the bride’s jewels. We design not for the eyes alone, but for the soul.",
+      title: "Sensory Experience",
+      text: "We craft celebrations that engage all senses - from the visual splendor to the ambiance that makes birthdays magical, weddings dreamlike, and corporate events impactful. We design for the heart, not just the eyes.",
     },
   ];
 
@@ -264,10 +264,10 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Founder’s Vision & Philosophy
+              Our Vision & Philosophy
             </h2>
             <p className="text-lg text-muted-foreground font-sans max-w-2xl mx-auto">
-              A message from the heart — where luxury meets emotion, and design finds its soul.
+              Creating unforgettable moments through exceptional event experiences.
             </p>
           </div>
           {/* Top Row - 3 Cards */}

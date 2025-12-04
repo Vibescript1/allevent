@@ -217,26 +217,26 @@ const Gallery = () => {
       category: "Entertainment",
     },
 
-    // Sports Events
+    // Birthday Events
     {
-      src: SportsImage2,
-      title: "Championship Finals",
-      category: "Sports",
+      src: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      title: "Kids Birthday Party",
+      category: "Birthday",
     },
     {
-      src: SportsImage1,
-      title: "Marathon Event",
-      category: "Sports",
+      src: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      title: "Milestone Birthday",
+      category: "Birthday",
     },
     {
-      src: SportsImage4,
-      title: "Award Ceremony",
-      category: "Sports",
+      src: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      title: "Themed Birthday",
+      category: "Birthday",
     },
     {
-      src: SportsImage3,
-      title: "Sports Day Event",
-      category: "Sports",
+      src: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      title: "Surprise Birthday",
+      category: "Birthday",
     },
     // Special Events
     // {
@@ -328,7 +328,7 @@ const Gallery = () => {
     "Wedding",
     "Corporate",
     "Entertainment",
-    "Sports",
+    "Birthday",
     // "Special",
   ];
 
@@ -354,7 +354,7 @@ const Gallery = () => {
       const categoryMap: { [key: string]: string } = {
         wedding: "Wedding",
         corporate: "Corporate",
-        sports: "Sports",
+        birthday: "Birthday",
         entertainment: "Entertainment",
         // special: "Special",
       };
